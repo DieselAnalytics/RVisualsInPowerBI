@@ -1,4 +1,4 @@
-# PASSSummit2020
+# PASS Summit 2020
 
 # Mention how to install a certain version of a package
 
