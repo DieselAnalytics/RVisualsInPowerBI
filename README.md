@@ -1,6 +1,24 @@
 # PASS Summit 2020
 
-# Mention how to install a certain version of a package
+### How to Install R Packages
+The ***install.packages()*** function is used to install packages in R. You will use the following code if you wanted to install a single packages such as ***tidyverse***:
+```R
+install.packages("tidyverse")
+```
+You can also install multiple packages at once. Use the following code to install ***tidyverse*** and ***RODBC*** together:
+```R
+pkgs <- c("tidyverse","RODBC")
+install.packages(pkgs)
+```
+You can install a specific version of a package using the following steps:
+
+-  Go to the **CRAN Package Archive** at this URL:  https://cran.r-project.org/src/contrib/Archive/
+-  Locate the package you want to download. Once you find it, click into the folder for that package to get the list of versions that are archived for that package. Copy the URL of the package you want to download.
+-  Assign the URL to a variable and used it with the ***install.package()*** to download the package. Below is the code you would use to download ***dplyr 1.0.0***:
+```R
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_1.0.0.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
+```
 
 ### Microsoft R Open
 You will be using a different distribution of R than the one installed. The distribution of R that we will use is Microsoft R Open (MRO). This distribution of R is totally compatible with distribution on CRAN but in comes with enhancements that improves the performance of certain types of calculations plus many additional tools. Perform the following steps to download the MRO in your DSVM:
