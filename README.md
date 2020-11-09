@@ -1,7 +1,7 @@
 # PASSSummit2020
 PASS Summit 2020
 
-###Azure Data Science Virtual Machine
+### Azure Data Science Virtual Machine
 
 Steps to create a DSVM in Azure
 1.	Go to https://portal.azure.com. If prompted, sign in using the credentials created in step 1
