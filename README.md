@@ -12,9 +12,9 @@ install.packages(pkgs)
 ```
 You can install a specific version of a package using the following steps:
 
--  Go to the **CRAN Package Archive** at this URL:  https://cran.r-project.org/src/contrib/Archive/
--  Locate the package you want to download. Once you find it, click into the folder for that package to get the list of versions that are archived for that package. Copy the URL of the package you want to download.
--  Assign the URL to a variable and used it with the ***install.package()*** to download the package. Below is the code you would use to download ***dplyr 1.0.0***:
+1.  Go to the **CRAN Package Archive** at this URL:  https://cran.r-project.org/src/contrib/Archive/
+2.  Locate the package you want to download. Once you find it, click into the folder for that package to get the list of versions that are archived for that package. Copy the URL of the package you want to download.
+3.  Assign the URL to a variable and used it with the ***install.package()*** to download the package. Below is the code you would use to download ***dplyr 1.0.0***:
 ```R
 packageurl <- "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_1.0.0.tar.gz"
 install.packages(packageurl, repos=NULL, type="source")
@@ -32,6 +32,8 @@ You will be using a different distribution of R than the one installed. The dist
 
 ### R Studio
 Blurb about installing R Studio
+
+### Blurb about packages used in the service
 
 ### Azure Data Science Virtual Machine
 
