@@ -1,5 +1,7 @@
 # PASSSummit2020
 
+# Mention how to install a certain version of a package
+
 ### Microsoft R Open
 You will be using a different distribution of R than the one installed. The distribution of R that we will use is Microsoft R Open (MRO). This distribution of R is totally compatible with distribution on CRAN but in comes with enhancements that improves the performance of certain types of calculations plus many additional tools. Perform the following steps to download the MRO in your DSVM:
 1.	Get the version of R that is being used in the Power BI service. You can find that information in the following Microsoft documentation:  https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals. 
