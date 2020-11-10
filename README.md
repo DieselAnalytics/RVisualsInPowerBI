@@ -41,6 +41,8 @@ install.packages(packageurl, repos=NULL, type="source")
 ### Configure Power BI
 
 
+![PBI R Config](./Files/RConfig.png)
+
 ### Azure Data Science Virtual Machine
 As you can see, there is a considerable amount of configuration that you need to do to setup your environment to use R in Power BI. The situation is made much easier if you leverage the Azure Data Science Virtual Machine. It comes pre-configured with many tools popular in data science including Power BI, R, and R Studio needed for this session. Perform the following steps to create an instance of Power BI: 
 
