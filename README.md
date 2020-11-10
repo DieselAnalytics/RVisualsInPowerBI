@@ -39,7 +39,7 @@ install.packages(packageurl, repos=NULL, type="source")
 ```
 
 ### Configure Power BI
-
+You need to do configure Power BI to use leverage Power BI. To configure Power BI to use R, go to File > Options and Settings > Options > R Scripting. Doing so will bring up the form you see below. Configure the form to use the R distribution you want to use that is installed on your machine as well as the IDE you want to use. An example of the form is pictured below: 
 
 ![PBI R Config](./Files/RConfig.png)
 
