@@ -1,4 +1,22 @@
-# PASS Summit 2020
+# Best Practices for Creating Stunning R Visuals in Power BI
+
+This is the GitHub repo for the ***Best Practices for Creating Stunning R Visuals in Power BI**** session given at PASS Summit 2020. The **READE** contains some instructions on how to perform some basic R tasks. Each task is clearly identified with headings.
+
+### Microsoft R Open
+You will be using a different distribution of R than the one installed. The distribution of R that we will use is Microsoft R Open (MRO). This distribution of R is totally compatible with distribution on CRAN but in comes with enhancements that improves the performance of certain types of calculations plus many additional tools. Perform the following steps to download the MRO:
+1.	Get the version of R that is being used in the Power BI service. You can find that information in the following Microsoft documentation:  https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals. 
+2.	Open up a browser in the DSVM and go to the following site:  https://mran.microsoft.com/open. Two browsers are pre-installed in the DSVM. They are Microsoft Edge and Firefox.
+3.	Click on the Download button on the right and you will be taken to the download page. Once on the download page, click on the Past Releases link which is located on the right section of the page. Clicking on the link will take you to a page that has links to all previous versions of Microsoft R Open. Click on the link for the version that the Power BI service is using.
+4.	Choose the download for Windows.
+5.	Execute the download
+6.	Open R Studio in the DSVM
+7.	Select Tools > Global Options. Verify that the MRO distribution you just installed is selected. If it is not, click on the Change… button and you should see it as one of the options. Select it then click Ok.
+
+### R Studio
+The R Studio IDE is the most popular IDE for R. It is equiped with many features that facilitates R development. R Studio is available as a free download at https://rstudio.com/products/rstudio/download/. 
+
+### R packages available in the Power BI Service
+As of writing, Power BI gives you access to over 900 packages in the service. The R packages in the service are updated irregularly and the version of the package is often not the most current version. Given that, it is important to know what version of the package is being used in the service to make sure you are not using features that are available in a version of the package that is more recent than the one used in the Power BI Service. Go to the following URL to get the list of R packages available in the services along with their version:  https://docs.microsoft.com/en-us/power-bi/connect-data/service-r-packages-support#r-packages-that-are-supported-in-power-bi.
 
 ### How to Install R Packages
 The ***install.packages()*** function is used to install packages in R. You will use the following code if you wanted to install a single packages such as ***tidyverse***:
@@ -20,22 +38,11 @@ packageurl <- "https://cran.r-project.org/src/contrib/Archive/dplyr/dplyr_1.0.0.
 install.packages(packageurl, repos=NULL, type="source")
 ```
 
-### Microsoft R Open
-You will be using a different distribution of R than the one installed. The distribution of R that we will use is Microsoft R Open (MRO). This distribution of R is totally compatible with distribution on CRAN but in comes with enhancements that improves the performance of certain types of calculations plus many additional tools. Perform the following steps to download the MRO in your DSVM:
-1.	Get the version of R that is being used in the Power BI service. You can find that information in the following Microsoft documentation:  https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals. 
-2.	Open up a browser in the DSVM and go to the following site:  https://mran.microsoft.com/open. Two browsers are pre-installed in the DSVM. They are Microsoft Edge and Firefox.
-3.	Click on the Download button on the right and you will be taken to the download page. Once on the download page, click on the Past Releases link which is located on the right section of the page. Clicking on the link will take you to a page that has links to all previous versions of Microsoft R Open. Click on the link for the version that the Power BI service is using.
-4.	Choose the download for Windows.
-5.	Execute the download
-6.	Open R Studio in the DSVM
-7.	Select Tools > Global Options. Verify that the MRO distribution you just installed is selected. If it is not, click on the Change… button and you should see it as one of the options. Select it then click Ok.
+### Configure Power BI
 
-### R Studio
-Blurb about installing R Studio
-
-### Blurb about packages used in the service
 
 ### Azure Data Science Virtual Machine
+As you can see, there is a considerable amount of configuration that you need to do to setup your environment to use R in Power BI. The situation is made much easier if you leverage the Azure Data Science Virtual Machine. It comes pre-configured with many tools popular in data science including Power BI, R, and R Studio needed for this session. Perform the following steps to create an instance of Power BI: 
 
 Steps to create a DSVM in Azure
 1.	Go to https://portal.azure.com. If prompted, sign in using the credentials created in step 1
