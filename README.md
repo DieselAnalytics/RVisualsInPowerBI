@@ -19,7 +19,7 @@ The R Studio IDE is the most popular IDE for R. It is equiped with many features
 As of writing, Power BI gives you access to over 900 R packages in the Power BI service. The R packages in the service are updated irregularly and the versions of the packages are often not the most current. Given that, it is important to know what version of the package is being used in the service to ensure what you develop can be supported when deployed. Go to the following URL to get the list of R packages available in the services along with their version:  https://docs.microsoft.com/en-us/power-bi/connect-data/service-r-packages-support#r-packages-that-are-supported-in-power-bi.
 
 ### How to Install R Packages
-The ***install.packages()*** function is used to install packages in R. You will use the following code if you wanted to install a single packages such as ***tidyverse***:
+The ***install.packages()*** function is used to install packages in R. Use the following code to install a single packages such as ***tidyverse***:
 ```R
 install.packages("tidyverse")
 ```
@@ -28,7 +28,7 @@ You can also install multiple packages at once. Use the following code to instal
 pkgs <- c("tidyverse","RODBC")
 install.packages(pkgs)
 ```
-You can install a specific version of a package using the following steps:
+Perform the following steps to perform a specific version of a package:
 
 1.  Go to the **CRAN Package Archive** at this URL:  https://cran.r-project.org/src/contrib/Archive/
 2.  Locate the package you want to download. Once you find it, click into the folder for that package to get the list of versions that are archived for that package. Copy the URL of the package you want to download.
@@ -39,12 +39,12 @@ install.packages(packageurl, repos=NULL, type="source")
 ```
 
 ### Configure Power BI
-You need to do configure Power BI to use R. To configure Power BI to use R, go to **File** > **Options and Settings** > **Options** > **R Scripting**. Doing so will bring up the form you see below. Configure the form to use the R distribution you want to use that is installed on your machine as well as the IDE you want to use. An example of the form is pictured below: 
+You need to do configure Power BI to use R. To configure Power BI to use R, go to **File** > **Options and Settings** > **Options** > **R Scripting**. Doing so will bring up the form you see below. Configure the form to pick the R distribution you want to use and the IDE you want to use. An example of what the form looks like filled out is pictured below: 
 
 ![PBI R Config](./Files/RConfig.png)
 
 ### Azure Data Science Virtual Machine
-As you can see, there is a considerable amount of configuration that you need to do to setup your environment to use R in Power BI. The situation is made much easier if you leverage the Azure Data Science Virtual Machine. It comes pre-configured with many tools popular in data science including Power BI, R, and R Studio needed for this session. Perform the following steps to create an instance of Power BI: 
+As you can see, there is a considerable amount of configuration you need to do to setup your environment to use R in Power BI. The situation is made much easier if you leverage the ***Azure Data Science Virtual Machine***. It comes pre-configured with many tools popular in data science including ***Power BI***, ***R***, and ***R Studio*** which is needed for this session. Perform the following steps to create an instance of ***Azure Data Science Virtual Machine***: 
 
 Steps to create a DSVM in Azure
 1.	Go to https://portal.azure.com. If prompted, sign in using the credentials created in step 1
