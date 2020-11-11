@@ -3,7 +3,7 @@
 This is the GitHub repo for the ***Best Practices for Creating Stunning R Visuals in Power BI**** session given at PASS Summit 2020. The **READE** contains some instructions on how to configure your environment to use R in Power BI. Each configuration task is clearly identified with headings.
 
 ### Microsoft R Open
-You will be using a different distribution of R than the one installed. The distribution of R that we will use is Microsoft R Open (MRO). This distribution of R is totally compatible with distribution on CRAN but in comes with enhancements that improves the performance of certain types of calculations plus many additional tools. Perform the following steps to download the MRO:
+The recommended distribution for R is Microsoft R Open (MRO). This distribution of R is free and totally compatible with the distribution on CRAN. It comes with enhancements and performance improvements. Perform the following steps to download the MRO:
 1.	Get the version of R that is being used in the Power BI service. You can find that information in the following Microsoft documentation:  https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals. 
 2.	Open up a browser in the DSVM and go to the following site:  https://mran.microsoft.com/open. Two browsers are pre-installed in the DSVM. They are Microsoft Edge and Firefox.
 3.	Click on the Download button on the right and you will be taken to the download page. Once on the download page, click on the Past Releases link which is located on the right section of the page. Clicking on the link will take you to a page that has links to all previous versions of Microsoft R Open. Click on the link for the version that the Power BI service is using.
