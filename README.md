@@ -28,7 +28,7 @@ You can also install multiple packages at once. Use the following code to instal
 pkgs <- c("tidyverse","RODBC")
 install.packages(pkgs)
 ```
-Perform the following steps to perform a specific version of a package:
+Perform the following steps to install a specific version of a package:
 
 1.  Go to the **CRAN Package Archive** at this URL:  https://cran.r-project.org/src/contrib/Archive/
 2.  Locate the package you want to download. Once you find it, click into the folder for that package to get the list of versions that are archived for that package. Copy the URL of the package you want to download.
