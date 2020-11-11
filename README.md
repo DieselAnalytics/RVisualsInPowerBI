@@ -1,6 +1,6 @@
 # Best Practices for Creating Stunning R Visuals in Power BI
 
-This is the GitHub repo for the ***Best Practices for Creating Stunning R Visuals in Power BI**** session given at PASS Summit 2020. The **READE** contains some instructions on how to perform some basic R tasks. Each task is clearly identified with headings.
+This is the GitHub repo for the ***Best Practices for Creating Stunning R Visuals in Power BI**** session given at PASS Summit 2020. The **READE** contains some instructions on how to configure your environment to use R in Power BI. Each configuration task is clearly identified with headings.
 
 ### Microsoft R Open
 You will be using a different distribution of R than the one installed. The distribution of R that we will use is Microsoft R Open (MRO). This distribution of R is totally compatible with distribution on CRAN but in comes with enhancements that improves the performance of certain types of calculations plus many additional tools. Perform the following steps to download the MRO:
