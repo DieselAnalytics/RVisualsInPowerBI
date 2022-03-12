@@ -5,14 +5,16 @@ This is the GitHub repo that covers ***Best Practices for Creating Stunning R Vi
 ### R Studio
 The R Studio IDE is the most popular IDE for R. It is equiped with many features that facilitates R development. R Studio is available as a free download at https://rstudio.com/products/rstudio/download/. 
 
-### Microsoft R Open
-The recommended distribution for R is Microsoft R Open (MRO). This distribution of R is free and totally compatible with the distribution on CRAN. It comes with enhancements and performance improvements. Perform the following steps to download the MRO:
-1.	Get the version of R that is being used in the Power BI service. You can find that information in the following Microsoft documentation:  https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals. 
-2.	Open up a browser and go to the following site:  https://cloud.r-project.org/. 
-3.	Since you are setting up your environment to use R in Power BI, I will assume you are working on a Windows machine. Given that, you will need to download the version of R for Windows. You will see a link for that in the upper portion of the page. Click the link. 
-4.	Clicking the link will take you to the ***R fo Windows*** page. Click on the link for the ***base*** download.
-5.	Clicking on that link will take you to a page that will allow you to download the most recent version of R. You will see a link at the top of the page in the following format:  ***Download R X.X.X for Windows***. Click that link to download the current version of R.
-	
+### Installing R
+The R programming is a free open-source programming language that can be downloaded from the ***Comprehensive R Archive Network (CRAN)*** repository. Below are the instructions:
+
+1.	Open up a browser and go to the following site:  https://cloud.r-project.org/. 
+2.	Since you are setting up your environment to use R in Power BI, I will assume you are working on a Windows machine. Given that, you will need to download the version of R for Windows. You will see a link for that in the upper portion of the page. Click the link. 
+3.	Clicking the link will take you to the ***R fo Windows*** page. Click on the link for the ***base*** download.
+4.	Clicking on that link will take you to a page that will allow you to download the most recent version of R. You will see a link at the top of the page in the following format:  ***Download R X.X.X for Windows***. Click that link to download the current version of R.
+
+Note that the version of R used in the Microsoft Power BI service usually lags the current version of R. I have not ran into any issues developing R visuals in a version of R that is more recent than the version of R in the Power BI service. You can find the version of R that is used in the service at the following site:  https://docs.microsoft.com/en-us/power-bi/visuals/service-r-visuals.
+
 ### R packages available in the Power BI Service
 As of writing, Power BI gives you access to over 900 R packages in the Power BI service. The R packages in the service are updated irregularly and the versions of the packages are often not the most current. Given that, it is important to know what version of the package is being used in the service to ensure what you develop can be supported when deployed. Go to the following URL to get the list of R packages available in the services along with their version:  https://docs.microsoft.com/en-us/power-bi/connect-data/service-r-packages-support#r-packages-that-are-supported-in-power-bi.
 
