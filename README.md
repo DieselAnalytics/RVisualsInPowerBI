@@ -43,7 +43,7 @@ You need to do configure Power BI to use R. To configure Power BI to use R, go t
 
 ![PBI R Config](./Files/RConfig.png)
 
-### xxx
+### Switching Your Development Environment
 Microsoft Power BI has a built in R IDE were you place the code needed to create your visual. You get to this IDE by selecting the R visual on your report canvas. Selecting the R visual on your report canvans will expose the R IDE in Power BI as listed below:
 ![PBIRIDE](./Files/PBIRIDE.png)
 
