@@ -44,5 +44,5 @@ You need to do configure Power BI to use R. To configure Power BI to use R, go t
 ![PBI R Config](./Files/RConfig.png)
 
 
-![PBIRIDE](./Files/RConfig.png)
-![RIDE](./Files/RConfig.png)
+![PBIRIDE](./Files/PBIRIDE.png)
+![RIDE](./Files/RIDE.png)
