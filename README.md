@@ -42,3 +42,7 @@ install.packages(packageurl, repos=NULL, type="source")
 You need to do configure Power BI to use R. To configure Power BI to use R, go to **File** > **Options and Settings** > **Options** > **R Scripting**. Doing so will bring up the form you see below. Configure the form to pick the R distribution you want to use and the IDE you want to use. An example of what the form looks like filled out is pictured below: 
 
 ![PBI R Config](./Files/RConfig.png)
+
+
+![PBIRIDE](./Files/RConfig.png)
+![RIDE](./Files/RConfig.png)
