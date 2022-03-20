@@ -39,7 +39,7 @@ install.packages(packageurl, repos=NULL, type="source")
 ```
 
 ### Configure Power BI
-You need to do configure Power BI to use R. To configure Power BI to use R, go to **File** > **Options and Settings** > **Options** you > **R Scripting**. Doing so will bring up the form you see below. Configure the form to pick the R distribution you want to use and the IDE you want to use. An example of what the form looks like filled out is pictured below: 
+You need to configure Power BI to use R. To configure Power BI to use R, go to **File** > **Options and Settings** > **Options** you > **R Scripting**. Doing so will bring up the form you see below. Configure the form to pick the R distribution you want to use and the IDE you want to use. An example of what the form looks like after it is filled out is pictured below: 
 
 ![PBI R Config](./Files/RConfig.png)
 
@@ -47,13 +47,13 @@ You need to do configure Power BI to use R. To configure Power BI to use R, go t
 Microsoft Power BI has a built in R IDE were you place the code needed to create your visual. You get to this IDE by selecting the R visual on your report canvas. Selecting the R visual on your report canvans will expose the R IDE in Power BI as listed below:
 ![PBIRIDE](./Files/PBIRIDE.png)
 
-You have the option of creating the entire script in this R IDE but the experience will not be that good. You are not limited to that IDE. You can use the R IDE you selected in the ***Configure Power BI*** section. To switch development to the R IDE you click the 45 degree arrow highlighted in the above image. Clicking that arrow will:
+You have the option of creating the entire script in this R IDE but the experience will not be ideal. Fortunately, you are not limited to that IDE. You can also use the R IDE you selected in the ***Configure Power BI*** section. To switch development to the R IDE you specified in the ***Configure Power BI*** section, click the 45 degree arrow highlighted in the above image. Clicking that arrow will:
 
   1. Save the dataset passed to the R visual to temporary storage as a csv file
-  2. Open the script in the R IDE in Power BI in R Studio
+  2. Open the R script in R Studio
   3. Include a pointer to the csv file so that it can be easily read into the R script 
 .
-The result of clicking the arror is shown below:
+The result of clicking the arrow is shown below:
 ![RIDE](./Files/RIDE.png)
 
-Note that the complete script from the R IDE in Power BI was passed to R Studio. In addition to that, a pointer to a csv file that represents the dataset passed to the R visual was added to the script and is highlighted in the red box. That line of code reads the contents of the dataset into a data structure known as a data frame. The data frame is stored in a variable named ***dataset***. By giving the data frame that name you are able to refer to the data in the same way it is referred to in Power BI. That enables you to develop the code in R Studio. Your development should be done beneanth line 9 where it says *Paste or type your script code here:*. Once your code is functional, you can copy and paste it in the R IDE in Power BI.
+Note that the complete script from the R IDE in Power BI was passed to R Studio. In addition to that, a pointer to a csv file that represents the dataset passed to the R visual was added to the script and is highlighted in the red box. That line of code reads the content of the dataset into a data structure known as a data frame. The data frame is stored in a variable named ***dataset***. By giving the variable that holds the data frame that name, you are able to refer to the data in the same way it is referred to in Power BI. That enables you to develop the code in R Studio. Your development should be done beneanth line 9 where it says *Paste or type your script code here:*. Once your code is functional, you can copy and paste it in the R IDE in Power BI.
